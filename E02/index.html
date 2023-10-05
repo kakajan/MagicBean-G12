@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <input id="x" type="number" onkeyup="run()" />
+    <input id="y" type="number" onkeyup="run()" />
+    <p id="outPut"></p>
+    <script>
+      function run() {
+        var x, y, z;
+        x = +document.getElementById("x").value;
+        console.log(x);
+        y = +document.getElementById("y").value;
+        console.log(y);
+        z = y + x;
+        console.log(z);
+        document.getElementById("outPut").innerHTML = z;
+      }
+    </script>
+  </body>
+</html>
