@@ -30,6 +30,7 @@
 //     "<li>" + course.name + " | " + course.score + "</li>";
 //   output.innerHTML = courseListText;
 // });
+
 const name = document.getElementById("name");
 const lastname = document.getElementById("lastname");
 const signIn = document.getElementById("signIn");

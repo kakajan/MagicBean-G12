@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "E06"
+    },
+    {
+      "path": "E01"
+    },
+    {
+      "path": "E02"
+    },
+    {
+      "path": "E03"
+    },
+    {
+      "path": "E04"
+    },
+    {
+      "path": "E05"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "E06"
+  }
+}
