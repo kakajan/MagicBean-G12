@@ -26,11 +26,15 @@ function getNum(input) {
 }
 function sum() {
   display.innerHTML = "";
-  firstNum = tempNum;
+  if (firstNum === undefined) {
+    firstNum = tempNum;
+  } else {
+    result();
+  }
   tempNum = "";
   operator = "sum";
 }
-function minus () {
+function minus() {
   display.innerHTML = "";
   firstNum = tempNum;
   tempNum = "";
@@ -45,4 +49,5 @@ function result() {
     res = +firstNum - +secondNum;
   }
   display.innerHTML = res;
+  firstNum = res;
 }
