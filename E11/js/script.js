@@ -47,6 +47,8 @@ function update (index) {
 }
 function remove (index) {
   taskList.splice(index, 1);
+  currentTaskIndex = index;
+  
   renderList()
 }
 function renderList() {
